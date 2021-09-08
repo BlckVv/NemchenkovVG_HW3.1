@@ -9,9 +9,46 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+//        Text("Hello, world!")
+        ZStack {
+        Color.black
+            .ignoresSafeArea()
+        VStack {
+            Circle()
+                .foregroundColor(.red)
+                .frame(width: 150, height: 150)
+                .brightness(0.5)
+                .overlay(Circle().stroke(Color.white, lineWidth: 8))
+            Circle()
+                .foregroundColor(.yellow)
+                .frame(width: 150, height: 150)
+                .brightness(0.4)
+                .overlay(Circle().stroke(Color.white, lineWidth: 8))
+            Circle()
+                .foregroundColor(.green)
+                .frame(width: 150, height: 150)
+                .brightness(0.5)
+                .overlay(Circle().stroke(Color.white, lineWidth: 8))
+            Spacer()
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Text("START")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .frame(width: 150, height: 50)
+                    .foregroundColor(.white)
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.white, lineWidth: 4)
+                            .background(Color.blue)
+                            )
+//                    .border(Color.white, width: 6)
+//                    .cornerRadius(10)
+            })
             .padding()
     }
+}
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

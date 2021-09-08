@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemchenkovVG_HW3.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.xcodeproj */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NemchenkovVG_HW3.1.xcodeproj; path = "../../../../../../../../Documents/Учёба (SwiftBook.ru)/Домашние задания (блок 3)/NemchenkovVG_HW3.1/NemchenkovVG_HW3.1.xcodeproj"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60AFC5826E9565900F31C24 /* NemchenkovVG_HW3_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemchenkovVG_HW3_1App.swift; sourceTree = "<group>"; };
 		E60AFC5A26E9565900F31C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E60AFC5C26E9565D00F31C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		E60AFC5626E9565900F31C24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.app */,
+				E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.xcodeproj */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 			);
 			name = NemchenkovVG_HW3.1;
 			productName = NemchenkovVG_HW3.1;
-			productReference = E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.app */;
+			productReference = E60AFC5526E9565900F31C24 /* NemchenkovVG_HW3.1.xcodeproj */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
