@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        Text("Hello, world!")
         ZStack {
         Color.black
             .ignoresSafeArea()
@@ -17,20 +16,22 @@ struct ContentView: View {
             Circle()
                 .foregroundColor(.red)
                 .frame(width: 150, height: 150)
-                .brightness(0.5)
+                .brightness(0.4)
                 .overlay(Circle().stroke(Color.white, lineWidth: 8))
+                .padding(.bottom, 20)
             Circle()
                 .foregroundColor(.yellow)
                 .frame(width: 150, height: 150)
                 .brightness(0.4)
                 .overlay(Circle().stroke(Color.white, lineWidth: 8))
+                .padding(.bottom, 20)
             Circle()
                 .foregroundColor(.green)
                 .frame(width: 150, height: 150)
                 .brightness(0.5)
                 .overlay(Circle().stroke(Color.white, lineWidth: 8))
             Spacer()
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {}, label: {
                 Text("START")
                     .font(.title)
                     .fontWeight(.bold)
@@ -42,8 +43,6 @@ struct ContentView: View {
                             .stroke(Color.white, lineWidth: 4)
                             .background(Color.blue)
                             )
-//                    .border(Color.white, width: 6)
-//                    .cornerRadius(10)
             })
             .padding()
     }
